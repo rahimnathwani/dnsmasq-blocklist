@@ -6,7 +6,7 @@ This script outputs some lines you can put in your dnsmasq configuration file.
 
 ## Usage
 ```
-bash generate.sh > list.txt
+bash generate.sh | sort | uniq > list.txt
 ```
 
 References:
